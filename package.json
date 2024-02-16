@@ -1,0 +1,29 @@
+{
+  "name": "electron-test",
+  "version": "1.0.0",
+  "description": "My electron app",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "build": "electron-builder build --mac --publish never",
+    "deploy": "electron-builder build --mac --publish always"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/djibril6/electron-auto-update.git"
+  },
+  "author": "Djibril",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/djibril6/electron-auto-update/issues"
+  },
+  "homepage": "https://github.com/djibril6/electron-auto-update#readme",
+  "devDependencies": {
+    "electron": "^28.2.3",
+    "electron-builder": "^24.9.1"
+  },
+  "dependencies": {
+    "electron-updater": "^6.1.7"
+  }
+}
